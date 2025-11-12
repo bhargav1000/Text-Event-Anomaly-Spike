@@ -18,5 +18,5 @@ Outputs top anomalies with reasons and window context.
 ## Notes
 - This is a **toy** spike on synthetic logs to illustrate approach.
 - Production: swap HashingVectorizer for engine-aware tokenization,
-  add per-level baselines, persist model, and wire into C++ runtime
+  add per-level baselines, persist model, and (hopefully) wire into C++ runtime
   (e.g., score via microservice or port rules + a compact scorer).
